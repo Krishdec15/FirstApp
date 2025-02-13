@@ -96,4 +96,4 @@ cd FirstApp
 - **Using Physical Device:** Connect a phone via USB and enable Developer Mode
 
 ## 📝 Final Notes
-- Ensure `stops.txt` is placed inside the `assets` folder.
+- `stops.txt` is placed inside the `assets` folder.
