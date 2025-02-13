@@ -13,7 +13,7 @@ Plane Journey Tracker is an Android application designed to help users track the
 
 ## 📂 Project Structure
 ```plaintext
-📦 PlaneJourneyCompose
+📦 Project_2\[MyApplication\]
  ┣ 📂 app/src/main/java/com/example/myapplication
  ┃ ┣ 📜 MainActivity.kt   --> Main logic for the app
  ┃ ┣ 📜 JourneyStop.kt    --> Data class for journey stops
@@ -77,17 +77,13 @@ Plane Journey Tracker is an Android application designed to help users track the
 - **`compose-version`** → This Jetpack Compose version.
 - **`xml-version`** → The XML-based version.
 
-## 📤 Submission Guidelines
-- Upload the project to a **private GitHub repository**.
-- Ensure XML and Compose versions are in **separate branches**.
-- Submit the **GitHub link and APK** to Google Classroom.
 
 ## 🛠️ Installation & Setup
 
 ### Clone the Repository
 ```sh
-git clone <your-repository-url>
-cd PlaneJourneyCompose
+git clone https://github.com/Krishdec15/FirstApp
+cd FirstApp
 ```
 
 ### Open in Android Studio
