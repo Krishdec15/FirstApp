@@ -81,17 +81,12 @@ Plane Journey Tracker is an Android application designed to help users track the
 - **`xml-version`** → This XML-based version.
 - **`compose-version`** → The Jetpack Compose version.
 
-## 📤 Submission Guidelines
-- Upload the project to a **private GitHub repository**.
-- Ensure XML and Compose versions are in **separate branches**.
-- Submit the **GitHub link and APK** to Google Classroom.
-
 ## 🛠️ Installation & Setup
 
 ### Clone the Repository
 ```sh
-git clone <your-repository-url>
-cd PlaneJourneyXML
+git clone https://github.com/Krishdec15/FirstApp
+cd FirstApp
 ```
 
 ### Open in Android Studio
@@ -104,4 +99,4 @@ cd PlaneJourneyXML
 - **Using Physical Device:** Connect a phone via USB and enable Developer Mode
 
 ## 📝 Final Notes
-- Ensure `stops.txt` is placed inside the `assets` folder.
+-  `stops.txt` is placed inside the `assets` folder.
