@@ -13,7 +13,7 @@ Plane Journey Tracker is an Android application designed to help users track the
 
 ## 📂 Project Structure
 ```plaintext
-📦 Project_2\[MyApplication\]
+📦 Project_2 [MyApplication]
  ┣ 📂 app/src/main/java/com/example/myapplication
  ┃ ┣ 📜 MainActivity.kt   --> Main logic for the app
  ┃ ┣ 📜 JourneyStop.kt    --> Data class for journey stops
