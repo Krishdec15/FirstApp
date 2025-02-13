@@ -1,0 +1,25 @@
+New York,5000,true
+London,3500,false
+Paris,1200,false
+Dubai,4200,true
+Tokyo,9000,false
+Sydney,7800,true
+Berlin,2500,false
+Moscow,4000,true
+Beijing,8700,false
+Mumbai,6700,true
+Singapore,1100,false
+Cape Town,9600,true
+Los Angeles,4500,false
+Toronto,3200,true
+São Paulo,7300,false
+Madrid,2700,true
+Rome,2200,false
+Istanbul,2900,true
+Cairo,3100,false
+Bangkok,5300,true
+Kuala Lumpur,4900,false
+Mexico City,7200,true
+Buenos Aires,8100,false
+Athens,1900,true
+Lisbon,2800,false

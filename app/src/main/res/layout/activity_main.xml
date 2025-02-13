@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journey Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- Distance Toggle Button -->
+    <Button
+        android:id="@+id/btnToggleUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch to Miles" />
+
+    <!-- Next Stop Button -->
+    <Button
+        android:id="@+id/btnNextStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Stop Reached"
+        android:layout_marginTop="8dp" />
+
+    <!-- Progress Information -->
+    <TextView
+        android:id="@+id/tvTotalDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Distance: 0 km"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvCoveredDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance Covered: 0 km" />
+
+    <TextView
+        android:id="@+id/tvRemainingDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance Left: 0 km" />
+
+    <!-- Progress Percentage (Move above Progress Bar) -->
+    <TextView
+        android:id="@+id/tvProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress: 0%"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"/>  <!-- Moves closer to progress bar -->
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:max="100"
+        android:layout_marginTop="4dp"/>
+
+    <!-- ListView for Journey Stops -->
+    <ListView
+        android:id="@+id/listViewStops"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
